@@ -1,0 +1,62 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+h1 {
+	font-size: 1	em;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2{	
+	font-size: 0.8em;
+	color:#585858;
+	text-transform:uppercase;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0;
+padding:0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	margin-bottom: -3em;
+}
+
+figure{
+	margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	marginb-bottom: 2em;
+}
+
+figcaption {
+	color:#FFFFFF;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-size:.9em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+
+}
+
+dd
